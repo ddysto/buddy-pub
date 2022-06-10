@@ -1511,10 +1511,11 @@ function isDataURI(filename) {
 
 
 var wasmBinaryFile = wasmBinaryFile || 'https://raw.githubusercontent.com/ddysto/buddy-pub/main/WasmZip.wasm';
+/*
 if (!isDataURI(wasmBinaryFile)) {
     wasmBinaryFile = locateFile(wasmBinaryFile);
 }
-
+*/
 function getBinary() {
     try {
         if (wasmBinary) {
