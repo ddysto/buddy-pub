@@ -1509,7 +1509,7 @@ function isDataURI(filename) {
 
 
 
-alert("i")
+//alert("i")
 var wasmBinaryFile = wasmBinaryFile || 'https://raw.githubusercontent.com/ddysto/buddy-pub/main/WasmZip.wasm';
 /*
 if (!isDataURI(wasmBinaryFile)) {
